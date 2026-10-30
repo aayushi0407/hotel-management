@@ -121,9 +121,6 @@ hotelpro/
 ### 3. Frontend Setup (`client`)
 
 1. Open a second terminal and navigate to `client`:
-   ```bash
-   cd C:\Users\chira\.gemini\antigravity\scratch\hotelpro\client
-   ```
 
 2. Install dependencies:
    ```bash
