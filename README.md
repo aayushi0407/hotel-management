@@ -93,10 +93,7 @@ hotelpro/
 
 ### 2. Backend Setup (`server`)
 
-1. Open a terminal and navigate to `server`:
-   ```bash
-   cd C:\Users\chira\.gemini\antigravity\scratch\hotelpro\server
-   ```
+1. Open a terminal and navigate to `server`
 
 2. Install dependencies:
    ```bash
@@ -104,11 +101,7 @@ hotelpro/
    ```
 
 3. Configure your MongoDB connection in `.env`:
-   ```env
-   PORT=8001
-   MONGO_URI=mongodb+srv://chiragagrawal1264_db_user:hnAHGNYkgYJ0RiBp@hotel.8z2au5c.mongodb.net/hotel?retryWrites=true&w=majority
-   JWT_SECRET=hotelpro_super_secret_jwt_key_2026
-   ```
+
    *(If you are using MongoDB Atlas, replace `MONGO_URI` with your connection string: `mongodb+srv://<username>:<password>@cluster0.mongodb.net/hotel?retryWrites=true&w=majority`)*
 
 4. **Seed Sample Data (Optional but Recommended)**:
